@@ -1,0 +1,4 @@
+MiNiNote是一个在MVC架构下开发的简单App,使用fileProvider通过文件系统保存图片
+避免图片过多导致程序崩溃.并且通过bitmapFactory来压缩图片节约内存.页面使用Activity托管fragment保证
+页面的灵活性和可重建性(如选择时间时旋转设备).可在便签中设置提醒,App会通过Service和BroadReceiver来进行提醒.
+使用SQLite存储信息,最后编辑时间实时更新,可以使用自动选择便签标题和要显示的部分内容和沉浸式状态栏保证UI的美观.
