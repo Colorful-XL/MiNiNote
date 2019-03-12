@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MiniNote</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="note_title">TITLE</string>
+    <string name="title_hint">Enter Title of Note</string>
+    <string name="note_content">CONTENT</string>
+    <string name="hint_details">Details</string>
+    <string name="select_date">选择日期:</string>
+    <string name="confirm">确认</string>
+    <string name="select_time">请选择时间:</string>
+</resources>

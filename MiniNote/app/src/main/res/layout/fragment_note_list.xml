@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+  >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_background"
+        android:scaleType="centerCrop"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/note_recycleView"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/id_icon_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_add"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="#FF9800"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="20dp"
+        app:rippleColor="#C07714"
+        app:borderWidth="0dp"
+        />
+
+</FrameLayout>
